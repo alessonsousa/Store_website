@@ -17,10 +17,10 @@
 
 /*formulario*/
 .formulario{
-    width: 550px;
-
+    width: 700px;
+    font-size: 20px;
     margin-top: 120px;
-    margin-left: 250px;
+    margin-left: 160px;
     padding: 10px;
     border: solid 2px #00000090;
     border-radius: 10px;
@@ -36,4 +36,20 @@
 .alert {
 background-color: cornflowerblue;
 color: cornsilk;
+}
+#baner{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-top: 250px;
+  position: flex;
+}
+#baner2 img{
+   width: 50px;
+   height: 50px;
+   margin-top: 80px;
+}
+#baner2{
+    margin-left: 1700px;
+  
 }
