@@ -17,12 +17,23 @@
 
 /*formulario*/
 .formulario{
-    width: 600px;
-    margin-top: 150px;
+    width: 550px;
+
+    margin-top: 120px;
     margin-left: 250px;
     padding: 10px;
     border: solid 2px #00000090;
     border-radius: 10px;
 }
-#pagtotal{
+
+/*IMAGEM QUE TÁ NO FORMULARIO*/
+.imgcont{
+    float: right;
+    margin-right: 100px;
+    margin-top: -320px;
+    border-radius: 5px;
+}
+.alert {
+background-color: cornflowerblue;
+color: cornsilk;
 }
