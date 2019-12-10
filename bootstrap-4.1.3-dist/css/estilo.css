@@ -1,1 +1,33 @@
+<<<<<<< HEAD
 
+=======
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+}
+/*tamanha da letras*/
+.nav-link{
+  font-size: 20px;
+
+}
+
+/*formulario*/
+.formulario{
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 250px;
+    padding: 10px;
+    border: solid 2px #00000090;
+    border-radius: 10px;
+}
+#pagtotal{
+    background-color: #465154;
+}
+>>>>>>> 8aa1d680eaa9ce8ca3d0b2efb8bf2f35caf9cb98
