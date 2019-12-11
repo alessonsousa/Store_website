@@ -9,3 +9,16 @@
 .div_menu{
     justify-content: flex-end;
 }
+.logo{
+    width: 100px;
+}
+.NavManual{
+    z-index: 1;
+}
+
+
+@media (max-width: 990px) {
+    .collapse{
+        background: #00000080;
+    }
+}
