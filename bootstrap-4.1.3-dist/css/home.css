@@ -3,5 +3,9 @@
     height:610px;
 }
 .topo{
-    background-image: url(../img/slide1.jpg);
+    background-image: url(../../img/slide1.jpg);
+    height: 780px;
+}
+.div_menu{
+    justify-content: flex-end;
 }
