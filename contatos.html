@@ -24,38 +24,47 @@
 
     <!--alerta de compras-->
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Oloco, meu!</strong> Entre em contato pra ver os melhores preços do Brasil!!
+        <strong></strong> Entre em contato pra ver os melhores preços do Brasil!!
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
     </div>
     <div id="pagtotal">
+        
         <!--MENU INICIAL-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="img/edivam motos.png" alt="eidvan motos">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
-                aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="textoNavbar">
-                <ul class="navbar-nav mr-auto">
+        <div class="container-fluid topo"> 
+            <div class="row NavManual sticky-top">
+             <div class="col-sm">
+              <nav class="navbar navbar-expand-lg menuResp">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"> <i class="fas fa-bars iconMenu"></i> </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                  <img src="img/edivam motos.png" class="logo" alt="">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                      <a class="nav-link text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="serviços.html">Serviços</a>
+                      <a class="nav-link text-white" href="serviços.html">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contatos.html">Contato</a>
+                      <a class="nav-link text-white" href="contatos.html" tabindex="-1" >Contato</a>
                     </li>
-                </ul>
-                <span class="navbar-text">
-
-                </span>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Busca" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar no site</button>
+                  </form>
+                </div>
+              </nav>
+             </div>
             </div>
-        </nav>
+            <div class="row banner">
+              <img src="img/logoTopo.png" class="rounded mx-auto d-block logoTopo" alt=""><br>  
+            </div>
+          </div>
+    
 
         <div class="contini">
             <h1>Contato</h1>
@@ -76,19 +85,23 @@
                 <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
                     ninguém.</small>
             </div>
-
+            <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Mensagem</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
             <button type="button" class="btn btn-outline-primary">Enviar</button>
+            
         </form>
 
         <!--card com foto do motor e descrição-->
         <div class="card mb-3">
             <img class="card-img-top" src="img/motor3.png" alt="Imagem de capa do card" height="500px">
             <div class="card-body">
-                <h2 class="card-title"><b>Faça o orçamento da sua moto aqui!!</b></h2>
-                <p class="card-text">O serviço de venda de peças de motos do <b>EDIVAN MOTOS</b> é feito com a máxima
+                <h2 class="card-title">Faça o orçamento da sua moto aqui!!</h2>
+                <p class="card-text">O serviço de venda de peças de motos do EDIVAN MOTOS é feito com a máxima
                     agilidade, eficiência e preço competitivo. Primando pela excelência no atendimento através da
                     qualificação de toda sua equipe. Atendendo os mais variados segmentos com rapidez. Fazendo da venda
-                    de peças de motos do <b>EDIVAN MOTOS</b> a sua melhor opção de mercado.</p>
+                    de peças de motos do EDIVAN MOTOS a sua melhor opção de mercado.</p>
                 <p class="card-text"><small class="text-muted"><a href="">Entre em contatos conosco.</a></small></p>
             </div>
         </div>

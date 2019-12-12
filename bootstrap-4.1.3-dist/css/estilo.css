@@ -33,8 +33,9 @@
 }
 /*alerta do inicio da pagina*/
 .alert {
-background-color: cornflowerblue;
-color: cornsilk;
+background-color: rgb(6, 6, 7);
+color: rgb(253, 253, 253);
+margin-bottom: 0%;
 }
 
 /*rodape de contatos*/
@@ -63,7 +64,7 @@ color: cornsilk;
 /*card com a foto do motor*/
 .card{
     margin-top: 100px;
-    font-family: 'Merriweather', serif;     
+    font-family: 'Solway', serif;     
 
 }
 /*fonte do p do card*/
@@ -72,7 +73,10 @@ color: cornsilk;
 
 }
 /*button de enviar do formulario*/
-
+.btn{
+    width: 180px;
+    margin-left: 380px;
+}
 
 /*nome contatos em cima do formulario*/
 .contini{
