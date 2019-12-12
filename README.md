@@ -4,7 +4,7 @@ Este e um site completo usando html, css, bootstrep
 
 
 macho aqui esta o codigo do rodapé completo pra todos fica igual
-<!--imagem do rodape do contatos-->
+  <!--imagem do rodape do contatos-->
         <div id="baner">
 
         </div>
@@ -27,4 +27,8 @@ macho aqui esta o codigo do rodapé completo pra todos fica igual
       <a href="https://www.google.com.br/maps/@-6.838196,-39.2048639,3a,75y,1.01h,62.91t/data=!3m6!1e1!3m4!1sarJQC40I8jx3IzMhA03Gsg!2e0!7i13312!8i6656" target="_blank">Sitio carrapateira, S/N - Distrito calabaça</a></p>
      
     </div>
+    <div class="fimrodape">
+        <p>Todos os direitos reservados © Develped by <a href="https://github.com/alessonsousa" target="_blank">Alesson Sousa</a> - <a href="https://github.com/CarlosEmannoel16" target="_blank">Carlos Emannoel</a></p>
+    </div>
    css esta no estilo.css so link 
+ esta tudo ponto ja mudei tudo ok

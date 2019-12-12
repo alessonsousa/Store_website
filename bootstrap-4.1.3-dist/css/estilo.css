@@ -108,6 +108,7 @@ color: cornsilk;
 .emailoc a{
     color: white;
 }
+/*develped by*/
 .fimrodape{
     height: 50px;
     background-color: rgb(44, 42, 43);
@@ -118,4 +119,7 @@ color: cornsilk;
     margin-left: 700px;
     margin-top: 20px;
    padding: 5px;
+}
+.fimrodape a{
+    color: white;
 }
