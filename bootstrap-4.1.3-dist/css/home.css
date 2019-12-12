@@ -54,6 +54,21 @@
 .cardsM{
     margin-top: 50px;
 }
+.call{
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    color: white;
+    font-size: 60px;
+    padding: 4px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.call:hover{
+   font-size: 65px;
+}
+
+}
 @media (max-width: 990px) {
     .collapse{
         background: #00000080;
