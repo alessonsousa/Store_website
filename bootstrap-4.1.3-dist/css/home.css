@@ -1,4 +1,6 @@
-
+.index{
+    background-color: #ffffff;
+}
 .imgSlide{
     width: 100%;
     height:610px;
@@ -49,10 +51,14 @@
     font-size: 90pt;
 }
 #mapa{
-    margin-top: 200px;
+    padding-top: 200px;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+    width: 100vw;;
 }
 .cardsM{
-    margin-top: 50px;
+  padding-top: 90px;
+    background-color: #ffffff;
 }
 .call{
     position: fixed;
@@ -65,9 +71,22 @@
     margin: 20px;
 }
 .call:hover{
-   font-size: 65px;
+   font-size: 65pxn;
 }
-
+.fundo{
+    background-image: url(../../img/img3.jpg);
+    height: 800px;
+    width: 100vw;
+    z-index: -1;
+    position: fixed;
+    bottom: 0;
+}
+.funcDiv{
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 @media (max-width: 990px) {
     .collapse{
