@@ -5,7 +5,9 @@
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!--fontes do google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Solway&display=swap"
+        rel="stylesheet">
     <!--icon de inicio-->
     <link rel="icon" href="img/edivam motos.png">
     <!--VERSÃO 2.0 -->
@@ -19,13 +21,13 @@
 
 <body>
 
-     <!--alerta de compras-->
-     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>Oloco, meu!</strong> Olha esse alerta animado, como é chique!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+    <!--alerta de compras-->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Oloco, meu!</strong> Entre em contato pra ver os melhores preços do Brasil!!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
     <div id="pagtotal">
         <!--MENU INICIAL-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -53,11 +55,19 @@
                 </span>
             </div>
         </nav>
-        
-  
+
+        <div class="contini">
+            <h1>Contato</h1>
+        </div>
 
         <!--FORMULARIO-->
         <form class="formulario">
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Nome Completo</label>
+                <input type="text" class="form-control" id="exampleInputPassword1"
+                    placeholder="EX: Alesson Sousa Viana">
+            </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">Endereço de email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -65,31 +75,47 @@
                 <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
                     ninguém.</small>
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Nome Completo</label>
-                <input type="text" class="form-control" id="exampleInputPassword1"
-                    placeholder="EX: Alesson Sousa Viana">
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Deixar Salvo</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-        <div class="imgcont">
-                <img src="img/contato.jpg" class="rounded float-right" alt="erro">
-        </div>
 
+            <button type="button" class="btn btn-outline-primary">Enviar</button>
+        </form>
+
+        <!--card com foto do motor e descrição-->
+        <div class="card mb-3">
+            <img class="card-img-top" src="img/motor3.png" alt="Imagem de capa do card" height="500px">
+            <div class="card-body">
+                <h2 class="card-title"><b>Faça o orçamento da sua moto aqui!!</b></h2>
+                <p class="card-text">O serviço de venda de peças de motos do <b>EDIVAN MOTOS</b> é feito com a máxima
+                    agilidade, eficiência e preço competitivo. Primando pela excelência no atendimento através da
+                    qualificação de toda sua equipe. Atendendo os mais variados segmentos com rapidez. Fazendo da venda
+                    de peças de motos do <b>EDIVAN MOTOS</b> a sua melhor opção de mercado.</p>
+                <p class="card-text"><small class="text-muted">Entre em contatos conosco.</small></p>
+            </div>
+        </div>
+        <!--imagem do rodape do contatos-->
         <div id="baner">
-          
-          <div id="baner2"> 
+
+        </div>
+        <div id="baner2">
             <img src="img/fac.png" alt="erro">
             <img src="img/what.png" alt="erro">
-          </div>
-         
+            <p>(88)9 9224-8235</p>
         </div>
 
-    </div> <!-- JavaScript (Opcional) -->
+    </div>
+    <div class="hora">
+        <h5>HORÁRIO DE FUNCIONAMENTO</h5>
+        <P>Seg-Sex: 7:00 - 17:00<br>
+            Sábados: 7:00 - 14:00
+        </P>
+    </div>
+    <div class="emailoc">
+      <img src="img/edivam motos.png" alt="">
+     <p>edivanalves41@gmail.com<br>
+     Sitio carrapateira, S/N - Distrito calabaça</p>
+     
+    </div>
+
+    <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="bootstrap-4.1.3-dist/js/jquery-3.3.1.slim.min.js"></script>
     <script src="bootstrap-4.1.3-dist/js/popper.min.js"></script>

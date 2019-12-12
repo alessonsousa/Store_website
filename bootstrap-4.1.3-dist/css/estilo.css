@@ -17,13 +17,14 @@
 
 /*formulario*/
 .formulario{
-    width: 700px;
+    width: 1000px;
     font-size: 20px;
-    margin-top: 120px;
-    margin-left: 160px;
+    margin-top: 20px;
+    margin-left: 450px;
     padding: 10px;
     border: solid 2px #00000090;
     border-radius: 10px;
+    font-family: 'Playfair Display', serif;
 }
 
 /*IMAGEM QUE TÁ NO FORMULARIO*/
@@ -33,23 +34,77 @@
     margin-top: -320px;
     border-radius: 5px;
 }
+/*alerta do inicio da pagina*/
 .alert {
 background-color: cornflowerblue;
 color: cornsilk;
 }
+
+/*rodape de contatos*/
 #baner{
   width: 100%;
   height: 200px;
   background-color: black;
-  margin-top: 250px;
+  margin-top: 50px;
   position: flex;
 }
 #baner2 img{
    width: 50px;
    height: 50px;
-   margin-top: 80px;
+   margin-top: -200px;
+
 }
 #baner2{
     margin-left: 1700px;
   
+}
+
+#baner2 p{
+    color: white;
+    margin-top: -90px;
+}
+/*card com a foto do motor*/
+.card{
+    margin-top: 100px;
+    font-family: 'Merriweather', serif;     
+
+}
+/*fonte do p do card*/
+.card-text{
+    font-size: 20px;
+
+}
+/*button de enviar do formulario*/
+.btn{
+    width: 150px;
+    margin-left: 400px;
+}
+
+/*nome contatos em cima do formulario*/
+.contini{
+    margin-left: 850px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+/*p de horario de funcionamento*/
+.hora{
+    margin-left: 800px;
+    margin-top: -150px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.hora p{
+    margin-left: 60px;
+}
+/*email e local*/
+.emailoc{
+    color: white;
+    margin-top: -150px;
+    margin-left: 50px;
+    font-family: 'Solway', serif;
+}
+.emailoc img{
+    width: 150px;
+    height: 130px;
+    margin-left: 30px;
 }
