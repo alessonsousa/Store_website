@@ -4149,6 +4149,7 @@ input[type="button"].btn-block {
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
+  
   }
 }
 
@@ -4158,6 +4159,7 @@ input[type="button"].btn-block {
     flex-flow: row nowrap;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    
   }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;

@@ -1,11 +1,52 @@
+
 .imgSlide{
     width: 100%;
     height:610px;
 }
 .topo{
-    background-image: url(../../img/slide1.jpg);
+    background-image: url(../../img/img1.jpg);
+    background-size: cover;
     height: 780px;
 }
 .div_menu{
     justify-content: flex-end;
+}
+.logo{
+    width: 140px;
+
+}
+.NavManual{
+    z-index: 1;
+    background-image: linear-gradient(#000000, #00000000);
+    border: none;
+}
+.iconMenu{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.banner{
+    margin-top: 80px;
+}
+.logoTopo{
+    width: 300px;
+}
+.title{
+    margin-top: 170px;
+    justify-content: center;
+}
+.h1Titulo{
+
+    font-family: 'Quicksand', sans-serif;
+}
+.slide{
+    height: 700px;
+}
+.parte2{
+    margin-top: 50px ;
+}
+@media (max-width: 990px) {
+    .collapse{
+        background: #00000080;
+    }
 }
