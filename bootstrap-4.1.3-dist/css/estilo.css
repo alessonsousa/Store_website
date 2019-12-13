@@ -93,6 +93,7 @@ margin-bottom: 0%;
     justify-content: center;
     flex-direction: column;
     width: 300px;
+    text-align: center
 }
 
 /*email e local*/
@@ -136,5 +137,15 @@ margin-bottom: 0%;
 }
 #baner2 img{
     width: 30px;
+}
+.formulario{
+    width: 400px;
+    margin-left: 50px;
+}
+.btnManual{
+    margin-left: 100px;
+}
+.contini{
+    margin-left: 180px;
 }
 }
