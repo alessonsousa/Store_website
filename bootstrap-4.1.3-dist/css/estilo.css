@@ -40,7 +40,7 @@ margin-bottom: 0%;
 
 /*rodape de contatos*/
 .baner{
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: row;
