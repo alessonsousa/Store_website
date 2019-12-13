@@ -1,3 +1,6 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
 .index{
     background-color: #ffffff;
 }
@@ -69,6 +72,7 @@
     padding: 4px;
     border-radius: 20px;
     margin: 20px;
+    z-index: 2;
 }
 .call:hover{
    font-size: 65pxn;
@@ -87,6 +91,37 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+ 
+}
+.caixaHorario{
+    margin-top: 30px;
+    height: 200px;
+    width: 400px;
+    background-color:#4169E1;
+    border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 30px;
+  
+}
+.titleHorario{
+    height: 40px;
+    border-radius: 35px;
+    font-weight: 900;
+}
+.fa-clock{
+    font-size: 20px;
+    margin-right: 30px;
+}
+footer{
+    background:#363636;
+    height: auto;
+    height: 300px;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+
 }
 @media (max-width: 990px) {
     .collapse{
@@ -96,4 +131,10 @@
         flex-direction: column;
        align-items: center;
     }
+    footer{
+      
+        flex-direction: column;
+        height: auto;
+
+      }
 }

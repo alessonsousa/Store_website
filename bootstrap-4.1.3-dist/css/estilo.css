@@ -39,27 +39,28 @@ margin-bottom: 0%;
 }
 
 /*rodape de contatos*/
-#baner{
-  width: 100%;
-  height: 200px;
-  background-color: black;
-  margin-top: 50px;
-  position: flex;
+.baner{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#baner2 img{
-   width: 50px;
-   height: 50px;
-   margin-top: -200px;
 
-}
 #baner2{
-    margin-left: 1700px;
+   height: auto;
+   align-items: center;
+   display: flex;
+   justify-content: center;
   
 }
-
+#baner2 img{
+    width: 60px;
+}
 #baner2 p{
     color: white;
-    margin-top: -90px;
+    width: 300px;
+
 }
 /*card com a foto do motor*/
 .card{
@@ -82,29 +83,29 @@ margin-bottom: 0%;
 .contini{
     margin-left: 850px;
     margin-top: 20px;
-    font-family: 'Playfair Display', serif;
+
 }
 /*p de horario de funcionamento*/
 .hora{
-    margin-left: 800px;
-    margin-top: -150px;
+    display: flex;
+    align-items: center;
     color: white;
-    font-family: 'Merriweather', serif;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
 }
-.hora p{
-    margin-left: 60px;
-}
+
 /*email e local*/
 .emailoc{
     color: white;
-    margin-top: -150px;
-    margin-left: 50px;
-    font-family: 'Solway', serif;
+    text-align: center;
+    width: 300px;
+
 }
 .emailoc img{
     width: 150px;
     height: 130px;
-    margin-left: 30px;
+   
 }
 .emailoc a{
     color: white;
@@ -112,15 +113,28 @@ margin-bottom: 0%;
 /*develped by*/
 .fimrodape{
     height: 50px;
+    width: 100%;
     background-color: rgb(44, 42, 43);
     color: white;
-    margin-top: -10px;
+    text-align: center;
+    
 }
-.fimrodape p{
-    margin-left: 700px;
-    margin-top: 20px;
-   padding: 5px;
-}
+
 .fimrodape a{
     color: white;
+}
+
+@media (max-width: 990px) {
+.baner{
+        flex-direction: column;
+        align-items: center;
+}
+#baner2{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#baner2 img{
+    width: 30px;
+}
 }
