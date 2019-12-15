@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
 }
+
+/*--------------------------------------Contatos--------------------------------------*/
 a{
     color: white;
     text-decoration: none;
@@ -151,4 +153,14 @@ margin-bottom: 0%;
 .contini{
     margin-left: 180px;
 }
+}
+
+/*------------------------------------serviços---------------------------------------*/
+
+.textini{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    background-color: #5E565A;
 }
