@@ -156,5 +156,7 @@ footer{
       .menuResp{
           width: 100vw;
       }
-     
+     .novidades{
+         width: 300px;
+     }
 }
