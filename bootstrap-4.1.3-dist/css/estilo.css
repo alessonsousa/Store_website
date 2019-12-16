@@ -162,17 +162,29 @@ margin-bottom: 0%;
 }
 
 /*------------------------------------serviços---------------------------------------*/
-
+/*texto do inicio da pagina*/
 .textini{
     text-align: center;
-    color: black;
-    font-size: 20px;
-    font-family: 'PT Serif', serif;
+    color: #000000;
     background-color: #ffffff;
-    font-family: 'Lobster', cursive;     
+    margin-bottom: 40px;
+  
 }
-
+.textini img{
+width: 50%;
+height: 280px;
+margin-top: 0px;
+}
+.textini p{
+    margin-left: 150px;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Lobster', cursive; 
+}
+/*Ajustando a largura da pagina*/
 .card-deck{
     width: 80%;
     margin-left: 150px;
+    margin-bottom: 30px
+    
 }
