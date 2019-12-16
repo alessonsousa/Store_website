@@ -76,7 +76,9 @@ margin-bottom: 0%;
 /*fonte do p do card*/
 .card-text{
     font-size: 20px;
-
+}
+.card-body{
+    text-align: center;
 }
 /*button de enviar do formulario*/
 .btnManual{
