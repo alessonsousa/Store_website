@@ -70,7 +70,7 @@ margin-bottom: 0%;
 /*card com a foto do motor*/
 .card{
     margin-top: 100px;
-    font-family: 'Solway', serif;     
+    font-family: 'Lobster', cursive;     
 
 }
 /*fonte do p do card*/
@@ -162,13 +162,29 @@ margin-bottom: 0%;
 }
 
 /*------------------------------------serviços---------------------------------------*/
-
+/*texto do inicio da pagina*/
 .textini{
     text-align: center;
-    color: white;
-    font-size: 20px;
-    font-family: 'PT Serif', serif;
-    background-color: #5E565A;
+    color: #000000;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+  
 }
-
-
+.textini img{
+width: 50%;
+height: 280px;
+margin-top: 0px;
+}
+.textini p{
+    margin-left: 150px;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Lobster', cursive; 
+}
+/*Ajustando a largura da pagina*/
+.card-deck{
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 30px
+    
+}
