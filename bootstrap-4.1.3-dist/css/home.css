@@ -100,14 +100,13 @@
     height: 200px;
     width: 400px;
     background-color:#4169E1;
-    border-radius: 30px;
+    border-radius: 10px;
     font-family: 'Quicksand', sans-serif;
     padding-top: 30px;
   
 }
 .titleHorario{
     height: 40px;
-    border-radius: 35px;
     font-weight: 900;
 }
 .fa-clock{
@@ -141,6 +140,9 @@ footer{
       }
       .caixaHorario{
           width: 70%;
+      }
+      .fundo{
+          display: none;
       }
      
 }
