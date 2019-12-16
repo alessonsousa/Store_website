@@ -1,9 +1,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
-body{
-    background-image: url(../../img/slide1.jpg);
-}
+
 .index{
     background-color: #ffffff;
 }
@@ -15,7 +13,7 @@ body{
     background-image: url(../../img/img2.jpg);
     background-size: cover;
     height: 780px;
-    width: 100vw;
+    width: 100%;
 }
 .div_menu{
     justify-content: flex-end;
@@ -41,6 +39,7 @@ body{
 }
 .banner{
     margin-top: 80px;
+    width: 100vw;
 }
 .logoTopo{
     width: 300px;
@@ -87,7 +86,7 @@ body{
 .conteudo{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
 }
 .esq form{
    
@@ -98,7 +97,8 @@ body{
     padding: 70px;
 }
 .dir{
-    width: 50%;
+    width: 40%;
+    
 }
 .tituloMapa{
     text-align: center;
