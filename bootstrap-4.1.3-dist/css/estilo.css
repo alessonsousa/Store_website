@@ -165,10 +165,11 @@ margin-bottom: 0%;
 
 .textini{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
     font-family: 'PT Serif', serif;
-    background-color: #5E565A;
+    background-color: #ffffff;
+    font-family: 'Solway', serif;     
 }
 
 
