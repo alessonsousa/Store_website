@@ -88,18 +88,19 @@
 }
 .funcDiv{
     width: 100%;
-    padding-top: 40px;
+    padding-top: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 100px;
  
 }
 .caixaHorario{
     margin-top: 30px;
     height: 200px;
     width: 400px;
-    background-color:#4169E1;
+    background-color:rgb(73, 76, 83);
     border-radius: 10px;
     font-family: 'Quicksand', sans-serif;
     padding-top: 30px;
@@ -118,11 +119,19 @@ footer{
     height: auto;
     height: 300px;
     display: flex;
-    margin-top: 70px;
+
     justify-content: space-around;
     flex-direction: column;
     padding: 30px;
-
+}
+.novidades{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
 }
 @media (max-width: 990px) {
     .collapse{
@@ -143,6 +152,9 @@ footer{
       }
       .fundo{
           display: none;
+      }
+      .menuResp{
+          width: 100vw;
       }
      
 }
