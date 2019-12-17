@@ -215,7 +215,7 @@ footer{
           width: 100vw;
       }
      .novidades{
-         width: 25%;
+         width: 30%;
 
      }
      .topicos{
@@ -227,23 +227,23 @@ footer{
      }
      #mapa{
          flex-direction: column;
-         width: 100vw;
+         width: 70%;
      }
      .conteudo{
          flex-direction: column;
      }
      .dir{
-         width: 80%;
+         width: 10%;
      }
      .mapaGoogle{
          width: 100vw;
      }
      .esq{
-         width: 100vw;
+         width: 100%;
          padding: 10px;
      }
      .dir{
-         width: 100vw;
+         width: 10%;
       
      }
      .tituloMapa{
