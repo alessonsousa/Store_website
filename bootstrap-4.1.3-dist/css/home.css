@@ -215,7 +215,8 @@ footer{
           width: 100vw;
       }
      .novidades{
-         width: 100vw;
+         width: 25%;
+
      }
      .topicos{
          flex-direction: column;
@@ -249,6 +250,6 @@ footer{
          width: 100vw;
      }
      .menuResp{
-         width: 100vw;
+         width: 100%;
      }
 }

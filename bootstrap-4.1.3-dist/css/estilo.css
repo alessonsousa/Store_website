@@ -177,7 +177,7 @@ margin-top: 0px;
 }
 .textini p{
     margin-left: 150px;
-    position: absolute;
+  
     font-size: 16px;
     font-family: 'Lobster', cursive; 
 }
@@ -187,4 +187,18 @@ margin-top: 0px;
     margin-left: 150px;
     margin-bottom: 30px
     
+}
+
+@media(max-width: 990px){
+.card-deck{
+    margin-left: 50px;
+    
+}
+.textini p{
+    margin-left: 0px;
+}
+.textini img{
+width: 80%;
+}
+
 }
